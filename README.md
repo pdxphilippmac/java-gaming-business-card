@@ -1,4 +1,4 @@
-# Java-gaming-business-card-Creator
+# Java-Gaming-Business-Card-Creator
 
 Meet people who are into gaming? But you keep forgetting about their user-names on steam or whatever? This is a thing of the past with the new Gaming-Business-Card-Creator!
 
