@@ -18,8 +18,8 @@ Meet people who are into gaming? But you keep forgetting about their user-names 
 - [x] Create base layout with SASS and HTML
 - [x] Add Design to Html and Css
 - [x] Add Platform Logo and InpuBox
+- [x] Add Final Design Palette
 - [ ] Form without JavaScript
-- [ ]
 - [ ] Add option for squared or rounded images
 - [ ] Add Platform-logo to User-Name?
 - [ ] Add Achievements-Score

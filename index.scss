@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -14,13 +19,14 @@ header {
   text-align: center;
   font-size: 35px;
   color: white;
-  background: rgb(2, 0, 36);
+  /*background: rgb(2, 0, 36);
   background: linear-gradient(
     90deg,
     rgba(2, 0, 36, 1) 0%,
     rgba(32, 121, 50, 1) 47%,
     rgba(0, 212, 255, 1) 100%
-  );
+  );*/
+  background-image: url(https://images.all-free-download.com/images/graphiclarge/concept_geometric_shapes_background_vector_536424.jpg);
 }
 
 nav {
@@ -28,7 +34,7 @@ nav {
   width: 30%;
   height: 300px;
   -webkit-box-align: center;
-  background: grey;
+  background: #002f42;
   padding: 20px;
 }
 
@@ -50,17 +56,10 @@ nav li {
 }
 
 .footer-design {
-  background-color: #777;
   padding: 10px;
   text-align: center;
   color: white;
-  background: rgb(2, 0, 36);
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(32, 121, 50, 1) 47%,
-    rgba(0, 212, 255, 1) 100%
-  );
+  background-image: url(https://images.all-free-download.com/images/graphiclarge/concept_geometric_shapes_background_vector_536424.jpg);
 }
 
 .image-playstation {
@@ -85,6 +84,7 @@ nav li {
 Responsive Layout Ending */
 li {
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 /* classes für java?
