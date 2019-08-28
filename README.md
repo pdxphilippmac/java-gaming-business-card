@@ -15,10 +15,10 @@ Meet people who are into gaming? But you keep forgetting about their user-names 
 
 ## Milestones
 
-- [ ] Create base layout with SASS and HTML
+- [x] Create base layout with SASS and HTML
+- [x] Add Design to Html and Css
+- [x] Add Platform Logo and InpuBox
 - [ ] Form without JavaScript
-- [ ]
-- [ ]
 - [ ]
 - [ ] Add option for squared or rounded images
 - [ ] Add Platform-logo to User-Name?
