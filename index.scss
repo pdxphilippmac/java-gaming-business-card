@@ -1,0 +1,85 @@
+*,
+*:after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(32, 121, 50, 1) 47%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+nav {
+  float: left;
+  width: 30%;
+  height: 300px;
+  -webkit-box-align: center;
+  background: grey;
+  padding: 20px;
+}
+
+nav ul {
+  /* Punkte werden bei Auflistung nicht angegeben*/
+  list-style-type: none;
+  padding: 0;
+}
+
+.article-image-creator {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px;
+}
+
+.footer-design {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(32, 121, 50, 1) 47%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+/* Responsive Layout Beggining
+
+@media (max-width: 600px) {
+  nav,
+  article {
+    width: 100%;
+    height: auto;
+  }
+}
+Responsive Layout Ending */
+li {
+  text-transform: uppercase;
+}
+
+/* classes für java?
+.li-playstation {
+}
+
+.li-xbox {
+}
+
+.li-steam {
+}
+*/
