@@ -15,9 +15,11 @@ body {
 }
 
 header {
+  display: flex;
+  justify-content: center;
   background-color: #666;
   padding: 30px;
-  text-align: center;
+
   font-size: 35px;
   color: white;
   /*background: rgb(2, 0, 36);
@@ -31,10 +33,10 @@ header {
 }
 
 nav {
-  float: left;
+  display: flex;
   width: 30%;
   height: 300px;
-  -webkit-box-align: center;
+
   background: #002f42;
   padding: 20px;
 }
@@ -49,9 +51,8 @@ nav li {
 }
 
 .article-image-creator {
-  float: left;
   padding: 20px;
-  width: 70%;
+  width: 100%;
   background-color: #f1f1f1;
   height: 300px;
 }
@@ -98,3 +99,10 @@ li {
 .li-steam {
 }
 */
+
+#canvas {
+}
+.section-main {
+  display: Flex;
+  flex-direction: row;
+}
