@@ -37,6 +37,9 @@ nav ul {
   list-style-type: none;
   padding: 0;
 }
+nav li {
+  margin: 10px;
+}
 
 .article-image-creator {
   float: left;
@@ -61,7 +64,7 @@ nav ul {
 }
 
 .image-playstation {
-  height: 20px;
+  height: 15px;
 }
 .image-steam {
   height: 15px;
