@@ -19,7 +19,10 @@ Meet people who are into gaming? But you keep forgetting about their user-names 
 - [x] Add Design to Html and Css
 - [x] Add Platform Logo and InpuBox
 - [x] Add Final Design Palette
-- [ ] Form without JavaScript
+- [x] Form without JavaScript
+- [x] Implement Image as Background for ID-Card
+- [ ] Adding more images to chose from
+- [ ] Add JavaScript Options to put text on image
+- [ ] Add Logo to input text depending on which platform-input-box you enter your User-Name
 - [ ] Add option for squared or rounded images
-- [ ] Add Platform-logo to User-Name?
 - [ ] Add Achievements-Score
