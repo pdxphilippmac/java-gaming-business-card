@@ -15,33 +15,66 @@
     <section class="section-main">
       <nav>
         <ul>
-          <li class="li-playstation"><img class="image-playstation" src="https://png2.cleanpng.com/sh/f4dec2680c6b5dbde9ffd28352d75336/L0KzQYm3U8IxN6F6j5H0aYP2gLBuTfJzaZ9pRd54Z3Awc7r5gBxmNaFxeet8dHH3ebF1TcViamFpSKQDNkKzdbWCTsk1QGg4SqUCMUW1QYa6V8A3PGU1Sak3cH7q/kisspng-brand-logo-circle-playstation-5ab0d028620ed9.9487323715215370644017.png" alt="playstation logo"> Playstation</li>
-          <input type="text">
-          
+          <li class="li-playstation">
+            <img
+              class="image-playstation"
+              src="https://png2.cleanpng.com/sh/f4dec2680c6b5dbde9ffd28352d75336/L0KzQYm3U8IxN6F6j5H0aYP2gLBuTfJzaZ9pRd54Z3Awc7r5gBxmNaFxeet8dHH3ebF1TcViamFpSKQDNkKzdbWCTsk1QGg4SqUCMUW1QYa6V8A3PGU1Sak3cH7q/kisspng-brand-logo-circle-playstation-5ab0d028620ed9.9487323715215370644017.png"
+              alt="playstation logo"
+            />
+            Playstation
+          </li>
+          <!-- Playstation Input Start-->
+          <input id="playstation-input" type="text" />
+          <button onclick="playstationFunction()" id="playstation-write">
+            Write
+          </button>
+          <!-- Playstation Input End-->
+
           <li class="li-xbox">
-              <img class="image-xbox" src="https://png2.kisspng.com/sh/ce15659b36c0beb167eb90e25b073a51/L0KzQYi4UsIxN5Nvh5GAYUPkQIe9VMM5bWg7UJC6NUK5RYK6UME2OWQ8TaQ6NkS1Q4S4U8A2Ol91htk=/5a3a066438e768.15265130151375216423313052.png" alt="xbox logo">Xbox</li>
-          <input type="text"> 
-          <li class="li-steam"> <img class="image-steam" src="https://png2.cleanpng.com/sh/606a8684a85111b9cecb06f1f25ce9b6/L0KzQYm3VsA1N5D0eZH0aYP2gLBuTgN1bZJyRdV4bYD4hLb5Tflkd594Rd54Z3Awhrrrhf8ub5JyfZ9BYXz5dcS0VfIyPJVneagBNXK8dIG1UMM0O2M7Tqk6NUK7QIq6VsA3PGI7T5D5bne=/kisspng-steam-computer-icons-logo-video-game-valves-5b14dba665b9d0.0333266715280936064167.png" alt="steam logo"> Steam</li>
-          <input type="text">
+            <img
+              class="image-xbox"
+              src="https://png2.kisspng.com/sh/ce15659b36c0beb167eb90e25b073a51/L0KzQYi4UsIxN5Nvh5GAYUPkQIe9VMM5bWg7UJC6NUK5RYK6UME2OWQ8TaQ6NkS1Q4S4U8A2Ol91htk=/5a3a066438e768.15265130151375216423313052.png"
+              alt="xbox logo"
+            />
+            Xbox
+          </li>
+          <!-- Xbox Input Start-->
+          <input id="xbox-input" type="text" />
+          <button id="xbox-write">Write</button>
+          <!-- Xbox Input End-->
+          <li class="li-steam">
+            <img
+              class="image-steam"
+              src="https://png2.cleanpng.com/sh/606a8684a85111b9cecb06f1f25ce9b6/L0KzQYm3VsA1N5D0eZH0aYP2gLBuTgN1bZJyRdV4bYD4hLb5Tflkd594Rd54Z3Awhrrrhf8ub5JyfZ9BYXz5dcS0VfIyPJVneagBNXK8dIG1UMM0O2M7Tqk6NUK7QIq6VsA3PGI7T5D5bne=/kisspng-steam-computer-icons-logo-video-game-valves-5b14dba665b9d0.0333266715280936064167.png"
+              alt="steam logo"
+            />
+            Steam
+          </li>
+
+          <!-- Steam Input start-->
+          <input id="steam-input" type="text" />
+          <button id="steam-write">Write</button>
+          <!-- Steam Input End-->
         </ul>
       </nav>
 
       <article class="article-image-creator">
-        <h1>Put Image here
-
-          
-        </h1>
-        <canvas id="canvas" > 
-
-        
-        </canvas>
-        
-        </p>
+        <canvas id="canvas" height="400px" width="500px"> </canvas>
+        <div style="display:none;">
+          <img
+            id="source"
+            src="http://images-eds.xboxlive.com/image?url=z951ykn43p4FqWbbFvR2Ec.8vbDhj8G2Xe7JngaTToA8ZgokQQ1x4S9EcA8Q1awjlQZqg2RCPRjcNDyhXpDagMDgljBtlRml7n99hcLMsXGEM6c4j8txQgtOxoKteGO.FE6vHoRW3ZiZHAxNltr3Nd4_u305mQ5fJgjnhV7_c6kAXxT9ov2JGxRg5E1KjORL"
+            width="270"
+            height="295px"
+          />
+        </div>
       </article>
     </section>
 
     <footer class=" footer-design">
-      <p>Design by <a href="https://github.com/pdxphilippmac">pdxphilippmac</a> </p>
+      <p>
+        Design by <a href="https://github.com/pdxphilippmac">pdxphilippmac</a>
+      </p>
     </footer>
     <script src="index.js"></script>
   </body>
