@@ -8,7 +8,7 @@ const image = document.getElementById("source");
 window.onload = function() {
   let canvas = document.getElementById("canvas");
   let canvasContext = canvas.getContext("2d");
-  var img = document.getElementById("source");
+  let img = document.getElementById("source");
   canvasContext.drawImage(img, 10, 10, 450, 350);
 };
 
