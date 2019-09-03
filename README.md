@@ -21,8 +21,9 @@ Meet people who are into gaming? But you keep forgetting about their user-names 
 - [x] Add Final Design Palette
 - [x] Form without JavaScript
 - [x] Implement Image as Background for ID-Card
-- [ ] Adding more images to chose from
-- [ ] Add JavaScript Options to put text on image
+- [x] Adding more images to chose from
+- [x] Add JavaScript Options to put text on image
+- [x] Add modules and split javascript data
 - [ ] Add Logo to input text depending on which platform-input-box you enter your User-Name
 - [ ] Add option for squared or rounded images
 - [ ] Add Achievements-Score
