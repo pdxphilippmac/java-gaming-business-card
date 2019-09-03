@@ -5,11 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Cinzel&display=swap&subset=latin-ext"
+      rel="stylesheet"
+    />
     <title>Gaming ID Card</title>
   </head>
   <body>
     <header>
       <h2>Gaming ID Card</h2>
+      <details>
+        <summary class="summary-arrow">Select Image </summary>
+        <img
+          class="summary-image"
+          src="https://www.tokkoro.com/picsup/2915032-metal-gear-solid-fox-simple-minimalism-foxhound___mixed-wallpapers.jpg"
+          alt=""
+        />
+        <img
+          class="summary-image"
+          src="https://www.skydesigner.me/wp-content/uploads/2018/11/tumblr_phtb4ntWGp1wo2jbao1_1280.png"
+          alt=""
+        />
+        <img
+          class="summary-image"
+          src="http://images-eds.xboxlive.com/image?url=z951ykn43p4FqWbbFvR2Ec.8vbDhj8G2Xe7JngaTToA8ZgokQQ1x4S9EcA8Q1awjlQZqg2RCPRjcNDyhXpDagMDgljBtlRml7n99hcLMsXGEM6c4j8txQgtOxoKteGO.FE6vHoRW3ZiZHAxNltr3Nd4_u305mQ5fJgjnhV7_c6kAXxT9ov2JGxRg5E1KjORL"
+          alt="Detail Image"
+        />
+      </details>
     </header>
 
     <section class="section-main">
@@ -24,7 +46,7 @@
             Playstation
           </li>
           <!-- Playstation Input Start-->
-          <input id="playstation-input" type="text" />
+          <input id="playstation-input" type="text" value="" />
           <button onclick="playstationFunction()" id="playstation-write">
             Write
           </button>
@@ -39,7 +61,7 @@
             Xbox
           </li>
           <!-- Xbox Input Start-->
-          <input id="xbox-input" type="text" />
+          <input id="xbox-input" type="text" value="" />
           <button id="xbox-write">Write</button>
           <!-- Xbox Input End-->
           <li class="li-steam">
@@ -52,7 +74,7 @@
           </li>
 
           <!-- Steam Input start-->
-          <input id="steam-input" type="text" />
+          <input id="steam-input" type="text" value="" />
           <button id="steam-write">Write</button>
           <!-- Steam Input End-->
         </ul>
@@ -63,7 +85,7 @@
         <div style="display:none;">
           <img
             id="source"
-            src="http://images-eds.xboxlive.com/image?url=z951ykn43p4FqWbbFvR2Ec.8vbDhj8G2Xe7JngaTToA8ZgokQQ1x4S9EcA8Q1awjlQZqg2RCPRjcNDyhXpDagMDgljBtlRml7n99hcLMsXGEM6c4j8txQgtOxoKteGO.FE6vHoRW3ZiZHAxNltr3Nd4_u305mQ5fJgjnhV7_c6kAXxT9ov2JGxRg5E1KjORL"
+            src="https://www.skydesigner.me/wp-content/uploads/2018/11/tumblr_phtb4ntWGp1wo2jbao1_1280.png"
             width="270"
             height="295px"
           />
@@ -72,10 +94,18 @@
     </section>
 
     <footer class=" footer-design">
+      <details>
+        <summary>Select Image </summary>
+        <img
+          class="summary-image"
+          src="http://images-eds.xboxlive.com/image?url=z951ykn43p4FqWbbFvR2Ec.8vbDhj8G2Xe7JngaTToA8ZgokQQ1x4S9EcA8Q1awjlQZqg2RCPRjcNDyhXpDagMDgljBtlRml7n99hcLMsXGEM6c4j8txQgtOxoKteGO.FE6vHoRW3ZiZHAxNltr3Nd4_u305mQ5fJgjnhV7_c6kAXxT9ov2JGxRg5E1KjORL"
+          alt="Detail Image"
+        />
+      </details>
       <p>
         Design by <a href="https://github.com/pdxphilippmac">pdxphilippmac</a>
       </p>
     </footer>
-    <script src="index.js"></script>
+    <script type="module" src="index.js"></script>
   </body>
 </html>
