@@ -1,10 +1,6 @@
-import {
-  addInputEventlistener,
-  writeOnImage
-  // addPlaystation
-} from "./components/canvas.js";
+import { writeOnImage } from "./components/canvas.js";
+import { setInitialText } from "./components/form.js";
 
-addInputEventlistener();
-
+setInitialText();
 writeOnImage();
 // addPlaystation();
