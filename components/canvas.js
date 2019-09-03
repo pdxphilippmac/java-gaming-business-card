@@ -30,7 +30,7 @@ export function writeOnImage() {
   canvasContext.drawImage(image, 0, 0, canvas.width, canvas.height);
 
   //declare text input design
-  canvasContext.font = "28px Cinzel";
+  canvasContext.font = "20px Cinzel";
   canvasContext.fillStyle = "white";
 
   canvasContext.shadowColor = "black";
@@ -40,9 +40,15 @@ export function writeOnImage() {
 
   //import what is typed into input-text-field
 
-  canvasContext.fillText(input1.value, 100, 290);
-  canvasContext.fillText(input2.value, 100, 340);
-  canvasContext.fillText(input3.value, 100, 390);
+  if (input1.value) {
+    canvasContext.fillText(`Playstation: ${input1.value}`, 100, 310);
+  }
+  if (input2.value) {
+    canvasContext.fillText(`Xbox: ${input2.value}`, 100, 340);
+  }
+  if (input3.value) {
+    canvasContext.fillText(`Steam: ${input3.value}`, 100, 370);
+  }
 }
 
 // function that gives event listener to input fields
