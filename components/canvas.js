@@ -32,18 +32,25 @@ export function writeOnImage() {
   canvasContext.shadowOffsetY = 3;
 
   //import what is typed into input-text-field
-
-  canvasContext.fillText(`Playstation: ${getText(0)}}`, 100, 310);
-
-  canvasContext.fillText(getText(1), 100, 360);
-  canvasContext.fillText(getText(2), 100, 390);
+  const text0 = getText(0); // die funktion in eine variabel packen und dann den text0 in die if-abfrage stellen.
+  if (text0) {
+    canvasContext.fillText(`Playstation: ${text0}`, 150, 330);
+  }
+  const text1 = getText(1);
+  if (text1) {
+    canvasContext.fillText(`Xbox: ${text1}`, 150, 360);
+  }
+  const text2 = getText(2);
+  if (text2) {
+    canvasContext.fillText(`Steam: ${text2}`, 150, 390);
+  }
 }
 // inpt add text only when input
 // if (input1.text[0]) {
-//   canvasContext.fillText(`Playstation: ${getText[0]}}`, 100, 310);
+//   canvasContext.fillText(`Playstation: ${getText[0]}}`, 100, 330);
 // }
 // if (input2.value) {
-//   canvasContext.fillText(`Xbox: ${getText(1)}`, 100, 340);
+//   canvasContext.fillText(`Xbox: ${input2.value}`, 100, 340);
 // }
 // if (input3.value) {
 //   canvasContext.fillText(`Steam: ${getText(2)}`, 100, 370);
