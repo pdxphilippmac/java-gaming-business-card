@@ -1,4 +1,4 @@
-import { getText } from "./gamecard.js";
+import { getText, setText } from "./gamecard.js";
 
 // selecting canvas and declaring it as a variable
 const canvas = document.getElementById("canvas");
@@ -33,9 +33,10 @@ export function writeOnImage() {
 
   //import what is typed into input-text-field
 
-  canvasContext.fillText(getText(0), 100, 310);
-  canvasContext.fillText(getText(1), 100, 340);
-  canvasContext.fillText(getText(2), 100, 370);
+  canvasContext.fillText(`Playstation: ${getText(0)}}`, 100, 310);
+
+  canvasContext.fillText(getText(1), 100, 360);
+  canvasContext.fillText(getText(2), 100, 390);
 }
 // inpt add text only when input
 // if (input1.text[0]) {

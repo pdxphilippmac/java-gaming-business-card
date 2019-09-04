@@ -1,17 +1,27 @@
 import { setItem, getItem } from "./storage.js";
 
-const storageCard = getItem("GameCard");
-let gamecard;
-if (storageCard) {
-  gamecard = storageCard;
-} else {
-  gamecard = {
+// const storageCard = getItem("GameCard");
+// let gamecard;
+// if (storageCard) {
+//   gamecard = storageCard;
+// } else {
+//   gamecard = {
+//     src:
+//       "https://www.tokkoro.com/picsup/2915032-metal-gear-solid-fox-simple-minimalism-foxhound___mixed-wallpapers.jpg",
+
+//     texts: ["PS-ID", "Xbox-ID", "Steam-ID"]
+//   };
+// }
+
+function loadGamecard() {
+  const gamecard = getItem("GameCard") || {
     src:
       "https://www.tokkoro.com/picsup/2915032-metal-gear-solid-fox-simple-minimalism-foxhound___mixed-wallpapers.jpg",
-
-    texts: ["PS-ID", "Xbox-ID", "Steam-ID"]
+    texts: ["Ps-ID", "Xbox-ID", "Steam-ID"]
   };
+  return gamecard;
 }
+const gamecard = loadGamecard();
 
 export function setSrc(value) {
   gamecard.src = value;
