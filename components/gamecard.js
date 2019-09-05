@@ -17,7 +17,7 @@ function loadGamecard() {
   const gamecard = getItem("GameCard") || {
     src:
       "https://www.tokkoro.com/picsup/2915032-metal-gear-solid-fox-simple-minimalism-foxhound___mixed-wallpapers.jpg",
-    texts: ["Ps-ID", "Xbox-ID", "Steam-ID"]
+    texts: ["", "", ""]
   };
   return gamecard;
 }
