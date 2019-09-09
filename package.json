@@ -3,25 +3,23 @@
   "version": "1.0.0",
   "description": "# WorkingTitle",
   "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^6.3.0",
+    "sass": "^1.23.0-module.beta.1"
+  },
   "scripts": {
-    "sass": "sass --watch index.scss style.css",
+    "dev": "sass --watch index.scss style.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pdxphilippmac/java-gaming-business-card.git"
   },
-  "keywords": [
-    "bla"
-  ],
-  "author": "pdxphilippmac",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/pdxphilippmac/java-gaming-business-card/issues"
   },
-  "homepage": "https://github.com/pdxphilippmac/java-gaming-business-card#readme",
-  "dependencies": {},
-  "devDependencies": {
-    "sass": "^1.23.0-module.beta.1"
-  }
+  "homepage": "https://github.com/pdxphilippmac/java-gaming-business-card#readme"
 }
