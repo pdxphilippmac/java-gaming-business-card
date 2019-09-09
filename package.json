@@ -1,0 +1,28 @@
+{
+  "name": "java-gaming-business-card",
+  "version": "1.0.0",
+  "description": "npm for java business card",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdxphilippmac/java-gaming-business-card.git"
+  },
+  "keywords": [
+    "gaming",
+    "business",
+    "card",
+    "js"
+  ],
+  "author": "pdxphilippmac",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pdxphilippmac/java-gaming-business-card/issues"
+  },
+  "homepage": "https://github.com/pdxphilippmac/java-gaming-business-card#readme",
+  "dependencies": {
+    "sass": "^1.23.0-module.beta.1"
+  }
+}
