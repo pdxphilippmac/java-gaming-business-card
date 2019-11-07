@@ -1,4 +1,4 @@
-## Java-Gaming-Business-Card-Creator
+## JavaScript-Gaming-Business-Card-Creator
 
 # WorkingTitle
 
